@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CV using Html & CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left_Side">
+            <div class="profileText">
+                <div class="imgBx">
+                    <img src="img.jpg">
+                </div>
+                <h2>Bruno de Candia<br><span>Web Developer jr</span></h2>
+            </div>
+
+            <div class="contactInfo">
+                <h3 class="title">contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span onclick="goTo(whatsapp)" class="text">+55 51 997 958 247</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span onclick="goTo(email)" class="text">brunodecandia@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                        <span class="text">www.brunodecandia.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                        <span onclick="goTo(linkedin)" class="text">linkedin.com/in/bruno-de-candia</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span onclick="goTo(endereco)" class="text">Nova Hartz, RS, Brasil</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></i></span>
+                        <span onclick="goTo(gitHub)" class="text">github.com/brunocandia-95</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactInfo education">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                        <h5>2010 - 2013</h5>
+                        <h4> Master degree in computer Science</h4>
+                        <h4>Universidade Feevale</h4>
+                    </li>
+                    <li>
+                        <h5>2010 - 2013</h5>
+                        <h4> Master degree in computer Science</h4>
+                        <h4>Universidade Feevale</h4>
+                    </li>
+                    <li>
+                        <h5>2010 - 2013</h5>
+                        <h4> Master degree in computer Science</h4>
+                        <h4>Universidade Feevale</h4>
+                    </li>
+                    <li>
+                        <h5>2010 - 2013</h5>
+                        <h4> Master degree in computer Science</h4>
+                        <h4>Universidade Feevale</h4>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contactInfo language">
+                <h3 class="title">Languages</h3>
+                <ul>
+                    <li>
+                        <span class="text">Portuguese</span>
+                        <span class="percent">
+                            <div style="width: 95%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">English</span>
+                        <span class="percent">
+                            <div style="width: 35%;"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right_Side">
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean bibendum risus ut sem euismod, vitae egestas justo
+                    egestas. Morbi ac eleifend nisl. Mauris efficitur sollicitudin 
+                    porttitor.<br><br>Vestibulum sapien purus, accumsan sed nibh
+                    quis, consectetur aliquam quam. Morbi eget ipsum in velit dictum
+                    vulputate. Vivamus ligula enim, suscipit sed iaculis sit amet, placerat
+                    vel ex. Ut aliquam tellus id elit fermentum bibendum. Interdum
+                    et malesuada fames ac ante ipsum primis in faucibus. Nulla et
+                    dictum nisi, nec sollicitudin purus. Sed mollis dui vitae mi
+                    porttitor, vel porta diam mattis. Cras ultrices suscipit purus
+                    sagittis condimentum.</p>
+            </div>
+            <div class="about">
+                <h2 class="title2">Experience</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2019 - Present</h5>
+                        <h5>Company Name</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Senior UX Designer</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aenean bibendum risus ut sem euismod, vitae egestas justo
+                            egestas.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2019 - Present</h5>
+                        <h5>Company Name</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Senior UX Designer</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Aenean bibendum risus ut sem euismod, vitae egestas justo
+                            egestas.</p>
+                    </div>
+                </div>          
+            </div>
+
+            <div class="about skills">
+                <h2 class="title2">Professional Skills</h2>
+                <div class="box">
+                    <h4>Html</h4>
+                    <div class="percent">
+                        <div style="width: 35%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <div style="width: 30%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>JavaScript</h4>
+                    <div class="percent">
+                        <div style="width: 35%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Java</h4>
+                    <div class="percent">
+                        <div style="width: 1%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Python</h4>
+                    <div class="percent">
+                        <div style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>MySQL</h4>
+                    <div class="percent">
+                        <div style="width: 1%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about interest">
+                <h2 class="title2">interest</h2>
+                <ul>
+                    <li><i class="fa fa-gamepad" aria-hidden="true"></i> Gaming</li>
+                    <li><i class="fa fa-gamepad" aria-hidden="true"></i> Gaming</li>
+                    <li><i class="fa fa-gamepad" aria-hidden="true"></i> Gaming</li>
+                    <li><i class="fa fa-gamepad" aria-hidden="true"></i> Gaming</li>
+                </ul>
+            </div>    
+        </div>
+    </div>
+</body>
+</html>
