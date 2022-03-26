@@ -11,10 +11,10 @@ let email = 'mailto:brunodecandia@gmail.com'
 
 function goTo(link){
 
-    //window.open(link)
+    window.open(link)
 
     //window.location.href = link;
 
-    window.open(email, 'emailWindow');
+    //window.open(email, 'emailWindow');
     
 }
